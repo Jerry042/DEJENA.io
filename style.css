@@ -36,7 +36,7 @@ h4,
 h5,
 body,
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
 }
 
 h1,
@@ -59,7 +59,7 @@ h6:hover a {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 35px;
     line-height: 40px;
     margin-bottom: 23px
 }
@@ -75,7 +75,7 @@ h3 {
     line-height: normal;
     margin-bottom: 17px;
     font-weight: 600;
-    color: #111428;
+    color: #281811;
     letter-spacing: -1px;
     line-height: 35px;
 }
@@ -4273,15 +4273,20 @@ form#commant_form div.field textarea.custom_field {
  /* max-height: 300px;*/
   margin: auto;
   text-align: center;
-  font-family: arial;
+  font-family: 'Times New Roman', Times, serif;
 }
-/*.cartext {
-  style h1max-height:300px;
+.cartext {
+  max-height:300px;
+  font-size: large;
 }
-*/
+
+.textshop {
+    font-size: medium;
+    color: brown;
+}
 
 .price {
-  color: grey;
+  color: rgb(128, 128, 128);
   font-size: 22px;
 }
 
